@@ -1,0 +1,125 @@
+.header {
+    font-family: 'Indie Flower';
+    font-size: 70px;
+    font-weight: 900;
+    margin: 20px auto;
+    text-align: center;
+    animation: animate__flip;
+    background-image: url(images/underline.png);
+    background-size: 700px;
+    width: 700px;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-family: 'Indie Flower';
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+body {
+    background-image: url(images/background1.jpg);
+}
+
+#addNewTask {
+    background: url(images/newTask.png);
+    width: 550px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.bi bi-calendar-check-fill {
+    width: 50px;
+    height: 50px;
+}
+
+#display {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.wrapper {
+    background: url(images/note1.png);
+    background-size: 300px, 300px;
+    display: flexbox;
+    width: 300px;
+    height: 270px;
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+
+.scrollspy-example {
+    text-align: center;
+    margin: 60px 65px;
+    width: 210px;
+    height: 200px;
+    overflow-x: auto;
+}
+
+.btn-outline-danger {
+    display: none;
+}
+
+div:hover>button {
+    display: block;
+    animation: flipInY;
+    animation-duration: 2s;
+    width: 150px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.myDeadLine {
+    width: 150px;
+    margin-block-start: 70px;
+}
+
+.bi bi-info-circle {
+    width: 40px;
+}
+
+#myButton {
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    background: url(images/giphy.gif);
+    background-size: 150px, 50px;
+    background-position: center;
+    border: none;
+    background-repeat: no-repeat;
+    font-family: 'Indie Flower';
+    font-size: 30px;
+    font-weight: bold;
+    animation: none;
+}
+
+.offcanvas-body {
+    font-family: 'Nerko One';
+    font-size: 20px;
+}
+
+#offcanvasRightLabel {
+    font-family: 'Nerko One';
+}
+
+.input-group,
+.input-group w-50 {
+    margin: 0 auto;
+}
+
+.btn btn-primary {
+    margin-top: 20px;
+}
+
+.bi bi-calendar-check-fill,
+.bi bi-alarm,
+.bi bi-clock-history {
+    font-size: 25px;
+}
+
+.bi bi-alarm {
+    padding: 7px
+}
